@@ -5,7 +5,7 @@ function celsiusToFahrenheit(celsiusInput) {
 
 // formula: (32°F − 32) × 5/9 = 0°C
 function fahrenheitToCelsius(fahrenheitInput) {
-  return (fahrenheitInput − 32) * 5 / 9;
+  return (fahrenheitInput - 32) * 5 / 9;
 }
 
 const celsiusInput = parseInt(prompt("Enter a temperature in Celsius:"));
