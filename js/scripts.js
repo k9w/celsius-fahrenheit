@@ -9,9 +9,9 @@ function fahrenheitToCelsius(fahrenheitInput) {
 }
 
 const celsiusInput = parseInt(prompt("Enter a temperature in Celsius:"));
-alert(celsiusToFahrenheit(celsiusInput));
+const fahrenheitOutput = celsiusInput + ' degrees C is ' + celsiusToFahrenheit(celsiusInput) + ' degrees F.';
 
 const fahrenheitInput = parseInt(prompt("Enter a temperature in Fahrenheit:"));
-alert(fahrenheitToCelsius(fahrenheitInput));
+const celsiusOutput = fahrenheitInput + ' degrees F is ' + fahrenheitToCelsius(fahrenheitInput) + ' degrees C.';
 
-
+alert(fahrenheitOutput + '\n' + celsiusOutput);
